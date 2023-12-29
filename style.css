@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121214;
+    font-size: 1.6rem;
+
+    padding: 7.2rem 10.4rem;
+}
+
+:root {
+    font-family: 'Mulish', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    display: grid;
+
+    grid-template-areas:
+        "header header header"
+        "div1 div2 div3"
+        "div4 div5 div6";
+
+    column-gap: 6.0rem;
+    row-gap: 4.4rem;
+
+    place-content: center;
+    
+}
+
+header {
+    grid-area: header;
+    margin-bottom: 6.3rem;
+}
+
+header h1 {
+    color: #02799D;
+    font-size: 5.6rem;
+    font-weight: 900;
+    line-height: 7.2rem;
+}
+
+header p {
+    color: #E1E1E6;
+    font-size: 3.2rem;
+    font-weight: 600;
+
+}
+
+.card {
+    width: 36.6rem;
+
+    border-radius: 0.8rem;
+    border: 2px solid #323238;
+
+    background: #202024;
+
+    overflow: hidden;
+}
+
+
+
+section p {
+    color: #C4C4CC;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    padding: 2.4rem 3.2rem 3.2rem;
+}
+
+section h2 {
+    color: #E1E1E6;
+
+    font-size: 3.6rem;
+    font-weight: 900;
+
+    padding: 2.4rem 3.2rem 0;
+
+}
+
+.div1 {
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+
+.div4 {
+    grid-area: div4;
+}
+
+.div5 {
+    grid-area: div5;
+}
+
+.div6 {
+    grid-area: div6;
+}
